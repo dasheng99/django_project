@@ -29,3 +29,7 @@ def login_view(request):
     else:
         errores = form.get_errors()
         return restful.params_error(message=errores)
+
+
+def register_view(request):
+    pass
